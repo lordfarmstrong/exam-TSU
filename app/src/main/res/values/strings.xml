@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="roll">Roll the Dice</string>
+    <string name="developers">Developers:</string>
+    <string name="dice_roll">The dice x6</string>
+    <string name="poem">The poem</string>
+    <string name="about">About the app</string>
+    <string name="just_see_our_website">Contact the developer</string>
+    <string name="Text_field">Thanks to TSU courses. And special THANKS to Maxim for mentoring and training. You can contact and view the projects by clicking on the link.</string>
+    <string name="heading">Стихотворение дня</string>
+    <string name="demonstrate">Показать</string>
+</resources>

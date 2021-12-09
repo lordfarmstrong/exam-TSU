@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".VerceOfTheDayFragment">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/heading"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/show_verse_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/demonstrate"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/field_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/show_verse_button"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="80dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
