@@ -17,6 +17,9 @@ import java.net.URL
 
 class VerceOfTheDayFragment : Fragment() {
 
+
+}
+
     lateinit var heading: TextView
     lateinit var showButton: Button
     lateinit var fieldResult: TextView
